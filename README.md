@@ -1,10 +1,10 @@
 # 算法工程师必备知识
 - [数据结构](https://github.com/yaoleiliu/Algorithm/tree/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)</br>
   - 基础知识(含知识点及高频题)</br>
-    - 二叉树打印(TreePrint)</br>
+    - [二叉树打印(TreePrint)](https://github.com/yaoleiliu/Algorithm/tree/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/TreePrint)</br>
     - 数组排序(ArraySort)</br>
     - 字符串常见题型(String)</br>  
-- 机器学习基础</br>
+- [机器学习基础](https://github.com/yaoleiliu/Algorithm/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80)</br>
   - 评估指标</br>
     - 定义
     - A/B测试
