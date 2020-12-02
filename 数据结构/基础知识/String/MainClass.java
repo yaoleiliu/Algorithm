@@ -74,5 +74,27 @@ public class MainClass {
          * 5.给定一个字符串str，请在单词间做逆序调整
          */
         CharactCount.reverseSentence();
+
+        /**
+         * 6.给定一个字符串str和一个整数i，i代表str中的位置，将str[0,i]移到右侧，str[i+1, N-1]移到左侧
+         *   要求：时间复杂度为O(N，额外空间复杂度为O(1)
+         */
+        CharactCount.reverceSubString();
+
+        /**
+         * 7.给定一个字符串类型的数组strs，请找到一种拼接顺序，使得将所有字符串拼接起来组成的
+         *   大字符串是所有可能性中字典顺序最小的，并返回这个大字符串
+         */
+        StringSort.getSmallString();
+
+        /**
+         * 8.给定一个字符串str，将其中所有空格字符替换为"%20"
+         */
+        StringSort.replaceSpace();
+
+        /**
+         * 9.给定一个字符串str，判断是否是整体有效的括号字符串
+         */
+        RuleJuge.isValidBracket();
     }
 }

@@ -252,4 +252,30 @@ public class CharactCount {
         chars[i] = chars[j];
         chars[j] = tmp;
     }
+
+    /**
+     * 6.思路
+     * 1）将str[0,i]部分字符逆序
+     * 2）将str[i+1,N-1]部分的字符逆序
+     * 3）将str的整体字符逆序
+     */
+    public static void reverceSubString(){
+        String str = "abcdefg";
+
+        String ans = processReverceSub(str, 3);
+        System.out.println("abcdefg 的 旋转字符串是：" + ans);
+    }
+
+    public static String processReverceSub(String str, int i){
+        if(str.length()<=1 || i>=str.length()){
+            return str;
+        }
+
+        String str1 = str.substring(0, i);
+        String str2 = str.substring(i);
+        str1 = reverseOrder(str1);
+        str2 = reverseOrder(str2);
+
+        return reverseOrder(str1+str2);
+    }
 }
